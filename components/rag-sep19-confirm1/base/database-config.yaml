@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rag-sep19-confirm1-database-config
+data:
+  VECTORDB_HOST: "rag-sep19-confirm1-database"
+  VECTORDB_PORT: "8000"
